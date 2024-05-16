@@ -1,0 +1,13 @@
+target_rg_name = "TWD"
+target_vnet_name = "west_europe_network"
+target_subnet = "subnet1"
+vm_name = "shiprock-we-dev-"
+vm_size = ["Standard_B1s"]
+vm_sku = ["2016-Datacenter"]
+computer_name = "shiprock"
+public_ip_needed = "yes"
+disk_count = 1
+disk_size_gb = 10
+log_work_space = "Central-Logs"
+log_ws_id = "<workspace-id>"
+log_ws_key = "<workspace-key>"
