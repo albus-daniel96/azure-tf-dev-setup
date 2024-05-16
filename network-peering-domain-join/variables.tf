@@ -1,0 +1,10 @@
+variable "rg_name" {}
+variable "rg_location" {}
+variable "vnet_name" {}
+variable "vnet_address_space" {}
+variable "subnet_name" {}
+variable "subnet_address_space" {}
+variable "vm_name" {}
+variable "vm_size" {}
+variable "vm_sku" {}
+variable "vnet_DNS" {}
